@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.2</Version>
@@ -1468,7 +1468,7 @@
     <Font>Default</Font>
    </Appearance>
    <Clock Type="Clock" Caption="" ID="2">
-    <WindowState Visible="True" X="1105" Y="20" Width="150" Height="50"/>
+    <WindowState Visible="False" X="1105" Y="20" Width="150" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1478,7 +1478,7 @@
     </Appearance>
    </Clock>
    <AudioTriggers BarsNumber="16" Caption="audio trigger" ID="0">
-    <WindowState Visible="True" X="505" Y="275" Width="300" Height="200"/>
+    <WindowState Visible="False" X="505" Y="275" Width="300" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1493,7 +1493,7 @@
     <SpectrumBar Name="#7 (1875Hz - 2187Hz)" Type="3" MinThreshold="12" MaxThreshold="216" Divisor="1" Index="6" WidgetID="18"/>
    </AudioTriggers>
    <Matrix Caption="2x2 - Auto 1" ID="3">
-    <WindowState Visible="True" X="125" Y="285" Width="160" Height="120"/>
+    <WindowState Visible="False" X="125" Y="285" Width="160" Height="120"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1504,7 +1504,7 @@
     <Function ID="15" InstantApply="true"/>
    </Matrix>
    <SpeedDial Caption="Duration" ID="4">
-    <WindowState Visible="True" X="120" Y="35" Width="200" Height="175"/>
+    <WindowState Visible="False" X="120" Y="35" Width="200" Height="175"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1517,7 +1517,7 @@
     <Time>50</Time>
    </SpeedDial>
    <Matrix Caption="2x2 - Auto 2" ID="6">
-    <WindowState Visible="True" X="125" Y="425" Width="160" Height="120"/>
+    <WindowState Visible="False" X="125" Y="425" Width="160" Height="120"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1535,7 +1535,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="950" Y="35" Width="120" Height="120"/>
+    <WindowState Visible="False" X="950" Y="35" Width="120" Height="120"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -1543,7 +1543,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Top Left Purple" ID="8" Icon="">
-     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1558,7 +1558,7 @@
      <Input Universe="0" Channel="164"/>
     </Button>
     <Button Caption="Top Right Purple" ID="9" Icon="">
-     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1573,7 +1573,7 @@
      <Input Universe="0" Channel="166"/>
     </Button>
     <Button Caption="Bottom Left Purple" ID="10" Icon="">
-     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="False" X="10" Y="60" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1588,7 +1588,7 @@
      <Input Universe="0" Channel="168"/>
     </Button>
     <Button Caption="Bottom Right Purple" ID="11" Icon="">
-     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="False" X="60" Y="60" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1604,7 +1604,7 @@
     </Button>
    </Frame>
    <Button Caption="Square From Center" ID="12" Icon="">
-    <WindowState Visible="True" X="370" Y="120" Width="65" Height="60"/>
+    <WindowState Visible="False" X="370" Y="120" Width="65" Height="60"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1618,7 +1618,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Blue Flash" ID="13" Icon="">
-    <WindowState Visible="True" X="370" Y="40" Width="65" Height="65"/>
+    <WindowState Visible="False" X="370" Y="40" Width="65" Height="65"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1633,7 +1633,7 @@
     <Input Universe="0" Channel="178"/>
    </Button>
    <Button Caption="Gradient Radial In" ID="14" Icon="">
-    <WindowState Visible="True" X="370" Y="190" Width="65" Height="60"/>
+    <WindowState Visible="False" X="370" Y="190" Width="65" Height="60"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1648,7 +1648,7 @@
     <Input Universe="0" Channel="1"/>
    </Button>
    <CueList Caption="Even Odd" ID="15">
-    <WindowState Visible="True" X="510" Y="15" Width="300" Height="220"/>
+    <WindowState Visible="False" X="510" Y="15" Width="300" Height="220"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1676,7 +1676,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="950" Y="185" Width="120" Height="120"/>
+    <WindowState Visible="False" X="950" Y="185" Width="120" Height="120"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -1684,7 +1684,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Mirror 4 - Disintegrate Pink" ID="5" Icon="">
-     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1698,7 +1698,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Mirror 1 - Disintigrate Pink" ID="16" Icon="">
-     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1712,7 +1712,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Mirror 3 - Disintigrate Pink" ID="17" Icon="">
-     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="False" X="10" Y="60" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1726,7 +1726,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Mirror 2 - Disintigrate Pink" ID="18" Icon="">
-     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="False" X="60" Y="60" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1748,7 +1748,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="950" Y="325" Width="120" Height="120"/>
+    <WindowState Visible="False" X="950" Y="325" Width="120" Height="120"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -1756,7 +1756,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Mirror 1 - Fill From Center Light Blue" ID="20" Icon="">
-     <WindowState Visible="True" X="60" Y="5" Width="50" Height="50"/>
+     <WindowState Visible="False" X="60" Y="5" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1770,7 +1770,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Mirror 4 - Fill From Center Light Blue" ID="21" Icon="">
-     <WindowState Visible="True" X="10" Y="5" Width="50" Height="50"/>
+     <WindowState Visible="False" X="10" Y="5" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1784,7 +1784,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Mirror 3 - Fill From Center Light Blue" ID="22" Icon="">
-     <WindowState Visible="True" X="10" Y="55" Width="50" Height="50"/>
+     <WindowState Visible="False" X="10" Y="55" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1798,7 +1798,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Mirror 2 - Fill From Center Light Blue" ID="23" Icon="">
-     <WindowState Visible="True" X="60" Y="55" Width="50" Height="50"/>
+     <WindowState Visible="False" X="60" Y="55" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1813,7 +1813,7 @@
     </Button>
    </Frame>
    <Matrix Caption="2x2 - Auto 3" ID="24">
-    <WindowState Visible="True" X="320" Y="285" Width="160" Height="120"/>
+    <WindowState Visible="False" X="320" Y="285" Width="160" Height="120"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
