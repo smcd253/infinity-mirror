@@ -2,8 +2,8 @@
 #include <E131.h>
 #include <NeoPixelBus.h>
 
-#define NUM_PIXELS 69  /* Number of pixels */
-#define UNIVERSE 4      /* Universe to listen for */
+#define NUM_PIXELS 64  /* Number of pixels */
+#define UNIVERSE 5      /* Universe to listen for */
 #define LEDS_PER_UNIVERSE 150
 #define CHANNEL_START 1 /* Channel to start listening at */
 #define DATA_PIN 3      /* Pixel output - GPIO0 */
@@ -11,7 +11,7 @@
 const char ssid[] = "Top Shelf";         /* Replace with your SSID */
 const char passphrase[] = "purpskurp69";   /* Replace with your WPA2 passphrase */
 /*static ip*/
-IPAddress ip(192,168,1,39);   
+IPAddress ip(192,168,1,40);   
 IPAddress gateway(192,168,1,1);   
 IPAddress subnet(255,255,255,0); 
 IPAddress dns(192,168,1,1);
