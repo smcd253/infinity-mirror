@@ -2,17 +2,19 @@
 #include <E131.h>
 #include <NeoPixelBus.h>
 
-#define NUM_PIXELS 64  /* Number of pixels */
+#define U1_NUM_PIXELS 150  /* Number of pixels in Universe 1 */
+#define U2_NUM_PIXELS 150 /* Number of pixels in Universe 2 */
+#define NUM_PIXELS 300  /* Number of pixels */
 #define UNIVERSE 5      /* Universe to listen for */
-#define LEDS_PER_UNIVERSE 150
+#define UNIVERSE_2 6   /* set to -1 if only 1 universe*/
 #define CHANNEL_START 1 /* Channel to start listening at */
 #define DATA_PIN 3      /* Pixel output - GPIO0 */
 
-const char ssid[] = "Top Shelf";         /* Replace with your SSID */
-const char passphrase[] = "purpskurp69";   /* Replace with your WPA2 passphrase */
+const char ssid[] = "This LAN is Our LAN";         /* Replace with your SSID */
+const char passphrase[] = "weedistight";   /* Replace with your WPA2 passphrase */
 /*static ip*/
-IPAddress ip(192,168,1,40);   
-IPAddress gateway(192,168,1,1);   
+IPAddress ip(192,168,0,36);   
+IPAddress gateway(192,168,0,1);   
 IPAddress subnet(255,255,255,0); 
 IPAddress dns(192,168,1,1);
 
@@ -45,10 +47,18 @@ void loop() {
                 e131.stats.packet_errors,   // Packet error counter
                 e131.data[0]);              // Dimmer data for Channel 1
         if (e131.universe == UNIVERSE) {
-            for (int i = 0; i < LEDS_PER_UNIVERSE; i++) {
+            for (int i = 0; i < U1_NUM_PIXELS; i++) {
                 int j = i * 3 + (CHANNEL_START - 1);
                 RgbColor pixel((uint8_t)e131.data[j], (uint8_t)e131.data[j+1], (uint8_t)e131.data[j+2]);
                 ledstrip.SetPixelColor(i, pixel);
+            }
+            ledstrip.Show();
+        }
+        else if (e131.universe == UNIVERSE_2) {
+            for (int i = 0; i < U1_NUM_PIXELS; i++) {
+                int j = i * 3 + (CHANNEL_START - 1);
+                RgbColor pixel((uint8_t)e131.data[j], (uint8_t)e131.data[j+1], (uint8_t)e131.data[j+2]);
+                ledstrip.SetPixelColor(i + U1_NUM_PIXELS, pixel);
             }
             ledstrip.Show();
         }
