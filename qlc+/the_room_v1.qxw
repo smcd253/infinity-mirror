@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="InputOutputManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.2</Version>
@@ -11,7 +11,7 @@
    <Universe Name="Universe 1" ID="0">
     <Input Plugin="MIDI" Line="0"/>
     <Output Plugin="E1.31" Line="1">
-     <PluginParameters UniverseChannels="207" multicast="0" priority="100" transmitMode="Full" ucastIP="192.168.1.36" ucastPort="5568" universe="1"/>
+     <PluginParameters UniverseChannels="207" multicast="0" priority="100" transmitMode="Full" ucastIP="192.168.1.36" ucastPort="5565" universe="1"/>
     </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1">
@@ -43,15 +43,15 @@
      <PluginParameters mcastIP="5" multicast="1" universe="5"/>
     </Input>
     <Output Plugin="E1.31" Line="1">
-     <PluginParameters UniverseChannels="450" multicast="0" priority="100" transmitMode="Full" ucastIP="192.168.1.40" ucastPort="5568" universe="5"/>
+     <PluginParameters UniverseChannels="450" multicast="0" priority="100" transmitMode="Full" ucastIP="192.168.0.40" ucastPort="5568" universe="5"/>
     </Output>
    </Universe>
    <Universe Name="Universe 6" ID="5">
     <Input Plugin="E1.31" Line="0">
-     <PluginParameters mcastIP="6" multicast="1" universe="6"/>
+     <PluginParameters mcastIP="4" multicast="1" universe="6"/>
     </Input>
     <Output Plugin="E1.31" Line="1">
-     <PluginParameters UniverseChannels="450" multicast="0" priority="100" transmitMode="Full" ucastIP="192.168.1.40" ucastPort="5568" universe="6"/>
+     <PluginParameters UniverseChannels="450" multicast="0" priority="100" transmitMode="Full" ucastIP="192.168.0.40" ucastPort="5568" universe="6"/>
     </Output>
    </Universe>
    <Universe Name="Universe 7" ID="6"/>
@@ -2091,11 +2091,10 @@
    <Speed FadeIn="0" FadeOut="0" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Gradient</Algorithm>
+   <Algorithm Type="Script">Fill Unfill</Algorithm>
    <DimmerControl>1</DimmerControl>
    <MonoColor>4278193407</MonoColor>
    <FixtureGroup>2</FixtureGroup>
-   <Property Name="presetSize" Value="5"/>
   </Function>
   <Function ID="38" Type="Scene" Name="Test 300 - Red">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>

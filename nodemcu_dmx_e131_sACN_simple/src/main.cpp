@@ -2,25 +2,24 @@
 #include <E131.h>
 #include <NeoPixelBus.h>
 
-#define U1_NUM_PIXELS 150  /* Number of pixels in Universe 1 */
-#define U2_NUM_PIXELS 150 /* Number of pixels in Universe 2 */
-#define NUM_PIXELS 300  /* Number of pixels */
-#define UNIVERSE 5      /* Universe to listen for */
-#define UNIVERSE_2 6   /* set to -1 if only 1 universe*/
+#define U1_NUM_PIXELS 69  /* Number of pixels in Universe 1 */
+#define U2_NUM_PIXELS 24 /* Number of pixels in Universe 2 */
+#define UNIVERSE 3      /* Universe to listen for */
+#define UNIVERSE_2 -1   /* set to -1 if only 1 universe*/
 #define CHANNEL_START 1 /* Channel to start listening at */
 #define DATA_PIN 3      /* Pixel output - GPIO0 */
 
 const char ssid[] = "This LAN is Our LAN";         /* Replace with your SSID */
 const char passphrase[] = "weedistight";   /* Replace with your WPA2 passphrase */
 /*static ip*/
-IPAddress ip(192,168,0,36);   
+IPAddress ip(192,168,0,38);   
 IPAddress gateway(192,168,0,1);   
 IPAddress subnet(255,255,255,0); 
 IPAddress dns(192,168,1,1);
 
 E131 e131;
-
-NeoPixelBus<NeoGrbFeature, Neo800KbpsMethod> ledstrip(NUM_PIXELS, DATA_PIN);
+const unsigned int num_pixels = U1_NUM_PIXELS + U2_NUM_PIXELS;
+NeoPixelBus<NeoGrbFeature, Neo800KbpsMethod> ledstrip(num_pixels, DATA_PIN);
 
 void setup() {
     Serial.begin(115200);
@@ -55,7 +54,7 @@ void loop() {
             ledstrip.Show();
         }
         else if (e131.universe == UNIVERSE_2) {
-            for (int i = 0; i < U1_NUM_PIXELS; i++) {
+            for (int i = 0; i < U2_NUM_PIXELS; i++) {
                 int j = i * 3 + (CHANNEL_START - 1);
                 RgbColor pixel((uint8_t)e131.data[j], (uint8_t)e131.data[j+1], (uint8_t)e131.data[j+2]);
                 ledstrip.SetPixelColor(i + U1_NUM_PIXELS, pixel);
