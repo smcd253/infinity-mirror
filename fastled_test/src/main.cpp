@@ -1,6 +1,8 @@
+#define FASTLED_ESP8266_NODEMCU_PIN_ORDER
+// #define FASTLED_ALLOW_INTERRUPTS 0
 #include <FastLED.h>
 
-#define LED_PIN     3
+#define LED_PIN     9
 #define NUM_LEDS    174
 #define BRIGHTNESS  64
 #define LED_TYPE    WS2812
