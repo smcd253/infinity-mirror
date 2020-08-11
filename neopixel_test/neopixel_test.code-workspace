@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "neopixel_test",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

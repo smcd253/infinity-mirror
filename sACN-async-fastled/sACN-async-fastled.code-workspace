@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "sACN-async-fastled",
+			"path": "."
+		},
+		{
+			"name": "sACN-async-fastled",
+			"path": "../sACN-async-fastled"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"system_error": "cpp"
+		}
+	}
+}

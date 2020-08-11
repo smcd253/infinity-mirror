@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Artnet-NeoPixel-HyperCube"
+		},
+		{
+			"name": "Artnet-NeoPixel-HyperCube",
+			"path": "../Artnet-NeoPixel-HyperCube"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"system_error": "cpp",
+			"array": "cpp",
+			"initializer_list": "cpp"
+		}
+	}
+}

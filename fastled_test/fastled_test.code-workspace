@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "fastled_test",
+			"path": "."
+		},
+		{
+			"name": "fastled_test",
+			"path": "../fastled_test"
+		}
+	],
+	"settings": {}
+}
