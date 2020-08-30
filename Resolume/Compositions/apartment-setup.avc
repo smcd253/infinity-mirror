@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Composition name="Composition" uniqueId="1597088421228" numDecks="4" currentDeckIndex="0" numLayers="4" numColumns="9" compositionIsRelative="0">
+<Composition name="Composition" uniqueId="1597131073047" numDecks="4" currentDeckIndex="0" numLayers="4" numColumns="9" compositionIsRelative="0">
 	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="2" microVersion="1" revision="70674"/>
 	<CompositionInfo name="apartment-setup" description="" width="1280" height="720">
 		<DeckInfo name="Shop" id="1499337861244" closed="0"/>
@@ -12,8 +12,8 @@
 		<ParamRange name="Master" T="DOUBLE" default="1" value="0.5905511811023621549">
 			<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5905511811023621549"/>
 		</ParamRange>
-		<ParamRange name="Speed" T="DOUBLE" default="1" value="0.10131124598925403402">
-			<PhaseSourceStatic name="PhaseSourceStatic" phase="0.062992125984250982307"/>
+		<ParamRange name="Speed" T="DOUBLE" default="1" value="0.10131124598925139724">
+			<PhaseSourceStatic name="PhaseSourceStatic" phase="0.062992125984249996984"/>
 		</ParamRange>
 		<ParamChoice name="Beat Snap" default="1" value="5" storeChoices="0"/>
 		<Param name="KeyboardShortcutPreset" T="STRING" default="" value="Default"/>
@@ -101,10 +101,10 @@
 	<VideoTrack name="VideoTrack">
 		<Params name="Params">
 			<ParamRange name="Width" T="DOUBLE" default="1920" value="1280">
-				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 			</ParamRange>
 			<ParamRange name="Height" T="DOUBLE" default="1080" value="720">
-				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 			</ParamRange>
 		</Params>
 		<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
@@ -325,10 +325,10 @@
 		<VideoTrack name="VideoTrack">
 			<Params name="Params">
 				<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 				</ParamRange>
 				<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 				</ParamRange>
 			</Params>
 			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
@@ -360,10 +360,10 @@
 		<VideoTrack name="VideoTrack">
 			<Params name="Params">
 				<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 				</ParamRange>
 				<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 				</ParamRange>
 			</Params>
 			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
@@ -416,8 +416,8 @@
 		</LayerView>
 		<AudioTrack name="AudioTrack">
 			<Params name="Params">
-				<ParamRange name="Volume" T="DOUBLE" default="0" value="-0.62170041815004850605">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.96484430718901292856"/>
+				<ParamRange name="Volume" T="DOUBLE" default="0" value="-0.62169038642857865629">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.96484486436919503216"/>
 				</ParamRange>
 			</Params>
 			<AudioEffectChain name="AudioEffectChain"/>
@@ -428,10 +428,10 @@
 					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.60546875"/>
 				</ParamRange>
 				<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 				</ParamRange>
 				<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 				</ParamRange>
 			</Params>
 			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
@@ -489,10 +489,10 @@
 		<VideoTrack name="VideoTrack">
 			<Params name="Params">
 				<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 				</ParamRange>
 				<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 				</ParamRange>
 			</Params>
 			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
@@ -543,10 +543,10 @@
 		<VideoTrack name="VideoTrack">
 			<Params name="Params">
 				<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 				</ParamRange>
 				<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 				</ParamRange>
 				<ParamChoice name="Auto Size" T="INT32" default="0" value="1" storeChoices="0"/>
 			</Params>
@@ -593,10 +593,10 @@
 		<VideoTrack name="VideoTrack">
 			<Params name="Params">
 				<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.1171875"/>
 				</ParamRange>
 				<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
-					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.06591796875"/>
 				</ParamRange>
 			</Params>
 			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
@@ -632,7 +632,7 @@
 		</Params>
 		<Clip name="Clip" uniqueId="1561809850847" layerIndex="0" columnIndex="0">
 			<PreloadData>
-				<VideoFile value="C:\Program Files\Resolume Arena\media\Shop\BlueSpace_13.mov"/>
+				<VideoFile value="C:/Program Files/Resolume Arena/media/Shop/BlueSpace_13.mov"/>
 			</PreloadData>
 			<Params name="Params">
 				<Param name="Name" T="STRING" default="BlueSpace_13" value="BlueSpace"/>
@@ -644,14 +644,14 @@
 						<DurationSource name="DurationSource" defaultDuration="3s"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.060285317712623874564" defaultMillisecondsDuration="3000">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999992250643">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999999222844"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999989674926">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998834266"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="3" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.66666666666666662966"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="3000"/>
 					</ParamRange>
@@ -668,10 +668,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -706,14 +706,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.028734689867677434133" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999989674926">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998834266"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -728,10 +728,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -766,15 +766,15 @@
 									<DurationSource name="DurationSource"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.2798466199993798198">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999989674926">
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998834266"/>
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
 											</ParamRange>
 											<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 											</ParamRange>
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="2" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamRange name="Rotation Step" altName="Step" T="DOUBLE" default="60" value="67.110666322314045829">
@@ -791,10 +791,10 @@
 										<ParamRange name="Blue" T="DOUBLE" default="0.63137257099151611328" value="0.6666666865348815918">
 											<PhaseSourceStatic name="PhaseSourceStatic" phase="0.6666666865348815918"/>
 										</ParamRange>
-										<ParamRange name="Hue" T="DOUBLE" default="0.91206026077270507813" value="0.6666666865348815918">
+										<ParamRange name="Hue" T="DOUBLE" default="0.91206026077270507812" value="0.6666666865348815918">
 											<PhaseSourceStatic name="PhaseSourceStatic" phase="0.6666666865348815918"/>
 										</ParamRange>
-										<ParamRange name="Saturation" T="DOUBLE" default="0.78039216995239257813" value="1">
+										<ParamRange name="Saturation" T="DOUBLE" default="0.78039216995239257812" value="1">
 											<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
 										</ParamRange>
 										<ParamRange name="Brightness" T="DOUBLE" default="1" value="0.6666666865348815918">
@@ -841,14 +841,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.61450645316919716432" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -862,10 +862,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -952,7 +952,7 @@
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -964,10 +964,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1031,7 +1031,7 @@
 		</Clip>
 		<Clip name="Clip" uniqueId="1561809850848" layerIndex="0" columnIndex="1">
 			<PreloadData>
-				<VideoFile value="C:\Program Files\Resolume Arena\media\Shop\FractalGold_14.mov"/>
+				<VideoFile value="C:/Program Files/Resolume Arena/media/Shop/FractalGold_14.mov"/>
 			</PreloadData>
 			<Params name="Params">
 				<Param name="Name" T="STRING" default="FractalGold_14" value="FractalGold"/>
@@ -1043,14 +1043,14 @@
 						<DurationSource name="DurationSource" defaultDuration="3s"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.29052003333274140084" defaultMillisecondsDuration="3000">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="3" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.66666666666666662966"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="3000"/>
 					</ParamRange>
@@ -1062,10 +1062,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1100,14 +1100,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.010463599741012418604" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999989674926">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998834266"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -1122,10 +1122,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1163,15 +1163,15 @@
 									<DurationSource name="DurationSource"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.90032339999974775324">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999989674926">
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998834266"/>
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
 											</ParamRange>
 											<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 											</ParamRange>
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="0" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamRange name="Rotation Step" altName="Step" T="DOUBLE" default="60" value="29.000000000000003553">
@@ -1186,10 +1186,10 @@
 										<ParamRange name="Blue" T="DOUBLE" default="0.63137257099151611328" value="0.12941177189350128174">
 											<PhaseSourceStatic name="PhaseSourceStatic" phase="0.12941177189350128174"/>
 										</ParamRange>
-										<ParamRange name="Hue" T="DOUBLE" default="0.91206026077270507813" value="0.16216216981410980225">
+										<ParamRange name="Hue" T="DOUBLE" default="0.91206026077270507812" value="0.16216216981410980225">
 											<PhaseSourceStatic name="PhaseSourceStatic" phase="0.16216216981410980225"/>
 										</ParamRange>
-										<ParamRange name="Saturation" T="DOUBLE" default="0.78039216995239257813" value="0.87058824300765991211">
+										<ParamRange name="Saturation" T="DOUBLE" default="0.78039216995239257812" value="0.87058824300765991211">
 											<PhaseSourceStatic name="PhaseSourceStatic" phase="0.87058824300765991211"/>
 										</ParamRange>
 									</Params>
@@ -1233,14 +1233,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -1255,10 +1255,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1341,7 +1341,7 @@
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -1353,10 +1353,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1432,7 +1432,7 @@
 		</Clip>
 		<Clip name="Clip" uniqueId="1561809850849" layerIndex="0" columnIndex="2">
 			<PreloadData>
-				<VideoFile value="C:\Program Files\Resolume Arena\media\Shop\Cities_09.mov"/>
+				<VideoFile value="C:/Program Files/Resolume Arena/media/Shop/Cities_09.mov"/>
 			</PreloadData>
 			<Params name="Params">
 				<Param name="Name" T="STRING" default="Cities_09" value="Cities"/>
@@ -1444,14 +1444,14 @@
 						<DurationSource name="DurationSource" defaultDuration="4.0040000000000004476s"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.94613803696304143998" defaultMillisecondsDuration="4004.0000000000004547" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="4.0040000000000004476" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4995004995004994619"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="4004"/>
 					</ParamRange>
@@ -1463,10 +1463,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1501,14 +1501,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.0094718254558468512744" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999981925569">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999997668532"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="1.8666666666666666963">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.37333333333333335036"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -1524,10 +1524,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1565,15 +1565,15 @@
 									<DurationSource name="DurationSource"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.025991951794011956128">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.28780806154273985698">
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.11811023622047060744"/>
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.28780806154273241848">
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.11811023622046876169"/>
 											</ParamRange>
 											<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 											</ParamRange>
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="2" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamRange name="Rotation Step" altName="Step" T="DOUBLE" default="60" value="154.33336046006945708">
@@ -1591,10 +1591,10 @@
 										<ParamRange name="Blue" T="DOUBLE" default="0.63137257099151611328" value="1">
 											<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
 										</ParamRange>
-										<ParamRange name="Hue" T="DOUBLE" default="0.91206026077270507813" value="0.61486488580703735352">
+										<ParamRange name="Hue" T="DOUBLE" default="0.91206026077270507812" value="0.61486488580703735352">
 											<PhaseSourceStatic name="PhaseSourceStatic" phase="0.61486488580703735352"/>
 										</ParamRange>
-										<ParamRange name="Saturation" T="DOUBLE" default="0.78039216995239257813" value="0.87058824300765991211">
+										<ParamRange name="Saturation" T="DOUBLE" default="0.78039216995239257812" value="0.87058824300765991211">
 											<PhaseSourceStatic name="PhaseSourceStatic" phase="0.87058824300765991211"/>
 										</ParamRange>
 									</Params>
@@ -1638,14 +1638,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="1" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -1661,10 +1661,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1766,7 +1766,7 @@
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -1778,10 +1778,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1854,7 +1854,7 @@
 		</Clip>
 		<Clip name="Clip" uniqueId="1561809850850" layerIndex="0" columnIndex="3">
 			<PreloadData>
-				<VideoFile value="C:\Program Files\Resolume Arena\media\Shop\HyperLines_09.mov"/>
+				<VideoFile value="C:/Program Files/Resolume Arena/media/Shop/HyperLines_09.mov"/>
 			</PreloadData>
 			<Params name="Params">
 				<Param name="Name" T="STRING" default="HyperLines_09" value="HyperLines"/>
@@ -1866,14 +1866,14 @@
 						<DurationSource name="DurationSource" defaultDuration="11.033333333333334991s"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.0062764474728035542228" defaultMillisecondsDuration="11033.333333333335759" defaultBeatsDuration="16">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="11.033333333333334991" value="1.999999999999999778">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.18126888217522654778"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="16" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="16" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="11033.33333333333394"/>
 					</ParamRange>
@@ -1885,10 +1885,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1923,14 +1923,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.017579979252189917305" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -1944,10 +1944,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -1995,7 +1995,7 @@
 											<ParamChoice name="PlayMode" T="INT32" default="0" value="2" storeChoices="0"/>
 											<Param name="DurationIsScalable" altName="Duration Changes With In &amp; Out Points" T="BOOL" default="1" value="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamRange name="Rotation Step" altName="Step" T="DOUBLE" default="60" value="0">
@@ -2024,14 +2024,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.80464221795626256206" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -2043,10 +2043,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -2084,15 +2084,15 @@
 									<DurationSource name="DurationSource"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.7151873628036089503">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="3.5431462354573821649">
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.53543307086613345369"/>
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="3.5431462354572906825">
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.53543307086612512702"/>
 											</ParamRange>
 											<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 											</ParamRange>
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="2" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamRange name="Rotation Step" altName="Step" T="DOUBLE" default="60" value="180">
@@ -2125,7 +2125,7 @@
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -2137,10 +2137,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -2171,8 +2171,8 @@
 									<DurationSource name="DurationSource" scale="0.16793532243276276805"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.81479902781514235155">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.50152148683533093187">
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.16500470740896511224"/>
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.50152148683531805329">
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.16500470740896255872"/>
 											</ParamRange>
 											<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="0.83967661216381384026" value="0.83967661216381384026">
 												<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
@@ -2180,7 +2180,7 @@
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="0" storeChoices="0"/>
 											<ParamChoice name="PlayMode" T="INT32" default="0" value="1" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 									<ValueRange name="startStop" min="148.40063416870415836" max="208.85735024449877528"/>
 								</ParamRange>
@@ -2188,15 +2188,15 @@
 									<DurationSource name="DurationSource"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.24021034536734781062">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="2.6791505997700628683">
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.45250142904855505943"/>
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="2.6791505997699940345">
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.45250142904854806503"/>
 											</ParamRange>
 											<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 											</ParamRange>
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="2" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamColor name="Color" T="COLOR" default="4294967295" value="4294909683" channelmode="2" paletteEnabled="0" color="4294909683" interpolated="0">
@@ -2223,7 +2223,7 @@
 		</Clip>
 		<Clip name="Clip" uniqueId="1561809850851" layerIndex="0" columnIndex="4">
 			<PreloadData>
-				<VideoFile value="C:\Program Files\Resolume Arena\media\Shop\Mech_08.mov"/>
+				<VideoFile value="C:/Program Files/Resolume Arena/media/Shop/Mech_08.mov"/>
 			</PreloadData>
 			<Params name="Params">
 				<Param name="Name" T="STRING" default="Mech_08" value="Mech"/>
@@ -2235,14 +2235,14 @@
 						<DurationSource name="DurationSource" defaultDuration="4.0000000000000008882s"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.012274548900893623299" defaultMillisecondsDuration="4000.0000000000009095" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="4.0000000000000008882" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.49999999999999988898"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="4000.0000000000004547"/>
 					</ParamRange>
@@ -2254,10 +2254,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -2280,7 +2280,7 @@
 		</Clip>
 		<Clip name="Clip" uniqueId="1561809850856" layerIndex="1" columnIndex="4">
 			<PreloadData>
-				<VideoFile value="C:\Program Files\Resolume Arena\media\Shop\FloatingPolygons_23.mov"/>
+				<VideoFile value="C:/Program Files/Resolume Arena/media/Shop/FloatingPolygons_23.mov"/>
 			</PreloadData>
 			<Params name="Params">
 				<Param name="Name" T="STRING" default="FloatingPolygons_23" value="FloatingPolygons"/>
@@ -2292,14 +2292,14 @@
 						<DurationSource name="DurationSource" defaultDuration="10.033333333333334991s"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.15780931893677166422" defaultMillisecondsDuration="10033.333333333335759" defaultBeatsDuration="16">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="10.033333333333334991" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.19933554817275744853"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="16" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="16" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="10033.33333333333394"/>
 					</ParamRange>
@@ -2311,10 +2311,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -2337,7 +2337,7 @@
 		</Clip>
 		<Clip name="Clip" uniqueId="1561809850861" layerIndex="2" columnIndex="4">
 			<PreloadData>
-				<VideoFile value="C:\Program Files\Resolume Arena\media\Shop\Enter4_35.mov"/>
+				<VideoFile value="C:/Program Files/Resolume Arena/media/Shop/Enter4_35.mov"/>
 				<EmbeddedThumbnail encoding="LZF" width="160" height="120" bitdepth="32" data="AQAA4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4P8A4I0AAgcEB0ADAgEABCCfQAPg/wDg/wDgVgALCAQIAJKSko9QVFBV4v9/4P8A4E8ABgIBAgAFAgVE9w4CoJ+gp/z9/P9fX19iAAHgT3Hg/wDg/QAMAwEDAA0JDQeZl5mj/yAABHRydHcA4P8A4P8A4EoAAAEgAQACIAEICwkLCZKQkp/+IAAGbGtsdAwJDOBKbeD/AOD/AA4AAAYCBgALBwsElpSWof0gAARnZWdxASAAIBrg/wDg/wDgTABCfwSenZ6n/yAABmpoanIQDBDi/3vg/wDgTABO4wYJBQkCoaChYnsDcXBxduBMaOD/AOD/AKAALGsFBpqYmqT/IABMawMKCAoA4P8A4P8A4EsARPcDDgoOCCnvbGsDdHB0cuBLZ+D/AOD/AMAABwwIDASVk5WgLGoI/WhmaHEFBAUBwBvg/wDg/wDgPwBOzgEHBztTIAMPnZudpv/7//9rbGttAwMDAVF/4P8A4P8A4EcAQn8HCQkJAaCgoKdCewJtbm3s/2vg/wDgTAAaAgICAAQEBAAJCAkFnJqcpf/9//9ycXJ2BAYE4Exv4P8A4P8AQnsPDg4OCZOSk5/++v7+cGxwdeH/G+D/AOBTABIICAgFlJSUoP38/f1mY2ZxDwsP7P9r4P8A4EwAAgcDB3FnAZ2ajGtCeyoD4v974P8A4FAAQn8BoJ4saynvA3FtcXYz7+BQa+D/AOD8ACxWBwQIBAWem56lTucCdHF07v/n4P8A4FUAIn8De3x7g0J7RPcCCAYI4FVv4P8A4P8AIAAHMjEyLVFQUU8gCuD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOD/AOCIAA0TERMIKygrHwwKDAQABCCeQAPg/wDg/wDgUgALOzo7Q/f39/l/f3+KInsAAiAD4P8A4P8A4FQACAYIBgVxcnGR+yAACYaGhowaFhoDAAMgckAD4P8A4P8A4EoACwUIBQAIDAgHcHJwkCKCBPyGg4aHJQMABSAD4P8A4P8A4EwADwMFAwAFBwUACgsKBnp7epkigwr9dXd1gQwNDAcAASByQAPg/wDg/wDgSgACAgMCRQcNAn1/faT6+vr9g4GDhQBMkez/j+D/AOBOAEJ/AgcLB0ADBAKEgoSdIoMI/IWGhY4BBQEC5f8D4P8A4FcABwgICAVxcXGSJ4sI+4mLiY4CBgIDZQcAAuBXeeD/AOD1ACJ/QAMMB3h7eJD7/Pv8foB+iSJ/AAXi/3/g/wDgVwAvFwQGdXZ1mCUHCf18f3yDDBAMBwBKD/H/m+D/AOBOACJ/QAMEA4OFg6NKDwN2eHaCIn8ABOL/f+D/AOBXACePBAJ5eXmeJQcH/IiGiIocGByZJ0UL4P8A4P8A4EoAAgcHB0KDBAR0dHSTIoME+4qJio4ie4KD4P8A4P8A4EoAAQMDO5IgAzajBQdxc3GQ/CAAB3x9fIYUExQGIoUAAGAD4P8A4P8A4EoAAgQGBEoPBAZ0dnSXJQcE/YKAgoQlBwAFIAPg/wDg/wDgTAAJAwQDAAYJBgAICyyTDoKDovn5+fx4eniDBQkFBeBMcOD/AOD/AKAAAgEBAUoPBAJ6enqfJQcE/ISGhIolA4oP/v8v4P8A4EoAon9CgwQEe317lCKDBPuKjIqSYoPi/3/g/wDgVgA0IwQHb3FvjyKDBvyAgYCJBAXx/5Tg/wDgVQAif0ADAAYqBwSRtri2yyJ/AArgVXHg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDg/wDgwwABAAA="/>
 			</PreloadData>
 			<Params name="Params">
@@ -2350,14 +2350,14 @@
 						<DurationSource name="DurationSource" defaultDuration="8.0000000000000017764s"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.67087708749606767" defaultMillisecondsDuration="8000.000000000001819" defaultBeatsDuration="16">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999984512389">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2499999999999805711"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="8.0000000000000017764" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999999994449"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="16" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="16" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="8000.0000000000009095"/>
 					</ParamRange>
@@ -2378,10 +2378,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -2425,7 +2425,7 @@
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -2440,10 +2440,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -2481,9 +2481,9 @@
 									<DurationSource name="DurationSource"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.18340879999993342508">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999989674926">
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999987088106">
 												<DurationSource name="DurationSource"/>
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998834266"/>
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998445688"/>
 											</ParamRange>
 											<ParamRange name="Multiplier" altName="Speed" T="DOUBLE" default="1" value="1">
 												<DurationSource name="DurationSource"/>
@@ -2498,7 +2498,7 @@
 											</ParamRange>
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="2" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamColor name="Color" T="COLOR" default="4294967295" value="4294916471" channelmode="2" paletteEnabled="0" color="4294916471" interpolated="0">
@@ -2545,7 +2545,7 @@
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -2564,10 +2564,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -2678,14 +2678,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.094643981257779563609" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999992250643">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999999222844"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999989674926">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999998834266"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -2706,10 +2706,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -2739,9 +2739,9 @@
 									<DurationSource name="DurationSource"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.25578366382731315687">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.27485605168798232789">
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.27485605168797522246">
 												<DurationSource name="DurationSource"/>
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.1148808797200484566"/>
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.11488087972004666637"/>
 											</ParamRange>
 											<ParamRange name="Multiplier" altName="Speed" T="DOUBLE" default="1" value="1">
 												<DurationSource name="DurationSource"/>
@@ -2759,7 +2759,7 @@
 											</ParamRange>
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="2" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamColor name="Color" T="COLOR" default="4294967295" value="4293787886" channelmode="2" paletteEnabled="0" color="4293787886" interpolated="0">
@@ -2808,14 +2808,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.4180424733460142428" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999994837463">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999999611422"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999992250643">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999999222844"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -2836,10 +2836,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -2873,9 +2873,9 @@
 									<DurationSource name="DurationSource"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.26770646562664557333">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.17883918553401786933">
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.1788391855340132619">
 												<DurationSource name="DurationSource"/>
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.088690621512276787697"/>
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.088690621512275413796"/>
 											</ParamRange>
 											<ParamRange name="Multiplier" altName="Speed" T="DOUBLE" default="1" value="1">
 												<DurationSource name="DurationSource"/>
@@ -2893,7 +2893,7 @@
 											</ParamRange>
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="2" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamColor name="Color" T="COLOR" default="4294967295" value="4286513404" channelmode="2" paletteEnabled="0" color="4286513404" interpolated="0">
@@ -2942,14 +2942,14 @@
 						<DurationSource name="DurationSource"/>
 						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0.66800743235405701803" defaultBeatsDuration="8">
 							<Params name="Params">
-								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999994837463">
-									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999999611422"/>
+								<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999992250643">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999999222844"/>
 								</ParamRange>
 								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
 									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
 								</ParamRange>
 							</Params>
-							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+							<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
 						</PhaseSourceTransportTimeline>
 						<ValueRange name="minMax" min="0" max="5000"/>
 					</ParamRange>
@@ -2970,10 +2970,10 @@
 			<VideoTrack name="VideoTrack" manualDuration="0">
 				<Params name="Params">
 					<ParamRange name="Width" T="DOUBLE" default="1280" value="1280">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0390625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.078125"/>
 					</ParamRange>
 					<ParamRange name="Height" T="DOUBLE" default="720" value="720">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.02197265625"/>
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0439453125"/>
 					</ParamRange>
 					<Param name="RScale" T="BOOL" default="1" value="1"/>
 					<Param name="GScale" T="BOOL" default="1" value="1"/>
@@ -3010,9 +3010,9 @@
 									<DurationSource name="DurationSource"/>
 									<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.38313064999305085356">
 										<Params name="Params">
-											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.27485605168798948883">
+											<ParamRange name="Speed" T="DOUBLE" default="1" value="0.27485605168798232789">
 												<DurationSource name="DurationSource"/>
-												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.11488087972005026072"/>
+												<PhaseSourceStatic name="PhaseSourceStatic" phase="0.1148808797200484566"/>
 											</ParamRange>
 											<ParamRange name="Multiplier" altName="Speed" T="DOUBLE" default="1" value="1">
 												<DurationSource name="DurationSource"/>
@@ -3030,14 +3030,14 @@
 											</ParamRange>
 											<ParamChoice name="PlayDirection" T="INT32" default="1" value="2" storeChoices="0"/>
 										</Params>
-										<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+										<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
 									</PhaseSourceTimeline>
 								</ParamRange>
 								<ParamColor name="Color" T="COLOR" default="4294967295" value="4293787783" channelmode="2" paletteEnabled="0" color="4293787783" interpolated="0">
 									<Params name="Channels">
-										<ParamRange name="Red" T="DOUBLE" default="1" value="0.52941179275512695313">
+										<ParamRange name="Red" T="DOUBLE" default="1" value="0.52941179275512695312">
 											<DurationSource name="DurationSource"/>
-											<PhaseSourceStatic name="PhaseSourceStatic" phase="0.52941179275512695313"/>
+											<PhaseSourceStatic name="PhaseSourceStatic" phase="0.52941179275512695312"/>
 										</ParamRange>
 										<ParamRange name="Green" T="DOUBLE" default="1" value="0">
 											<DurationSource name="DurationSource"/>

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../mirror-standalone-server"
+		},
+		{
+			"name": "mirror-standalone-server",
+			"path": "mirror-standalone-server"
+		}
+	],
+	"settings": {}
+}

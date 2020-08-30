@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "200824-172939-nodemcuv2",
+			"path": "../PlatformIO/Projects/200824-172939-nodemcuv2"
+		},
+		{
+			"name": "ota",
+			"path": "esp8266/ota"
+		},
+		{
+			"name": "LED-web-server",
+			"path": "esp8266/LED-web-server"
+		}
+	],
+	"settings": {}
+}
