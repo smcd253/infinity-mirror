@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "LED-web-server",
+			"path": "."
+		},
+		{
+			"name": "200828-133511-nodemcuv2",
+			"path": "../../../PlatformIO/Projects/200828-133511-nodemcuv2"
+		}
+	],
+	"settings": {}
+}
