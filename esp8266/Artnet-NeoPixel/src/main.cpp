@@ -11,24 +11,25 @@ Name: Mirrors6_9  | IP ADDR: 192.168.1.106 | UNIVERSE(s): 8, 9 | NUM LEDS: 206 |
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 
-#define DEVICE_NAME "MirrorMatrix-col1"
-IPAddress ip(192,168,1,103);
-const int num_universes = 2;
-const int universes[num_universes] = {5, 6};
-const int leds_per_universe[num_universes] = {138, 69};
-const int start_pixel[num_universes] = {0, 138};   
-const int numLeds = 207;
-const int data_pin = 3;
+#include "../lib/artnet_neopixel_config.h"
+
+const int universes[NUM_UNIVERSES] =          UNIVERSES_TO_ARRAY;
+const int leds_per_universe[NUM_UNIVERSES] =  NUM_LEDS_PER_UNIVERSE_TO_ARRAY;
+const int start_pixel[NUM_UNIVERSES] =        START_PIXEL_TO_ARRAY;   
+const int num_leds =                          NUM_TOTAL_LEDS;
+const int data_pin =                          DATA_PIN;
 
 //Wifi settings
-const char* ssid = "Top Shelf";
-const char* password = "purpskurp69";
+const char* ssid = "Daddy Leroy";
+const char* password = "leroyjenkins";
 /*static ip*/
-IPAddress gateway(192,168,1,1);   
+IPAddress IP;
+IPAddress GATEWAY;   
 IPAddress subnet(255,255,255,0); 
 
+
 // Neopixel settings
-Adafruit_NeoPixel leds = Adafruit_NeoPixel(numLeds, data_pin, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel leds = Adafruit_NeoPixel(num_leds, data_pin, NEO_GRB + NEO_KHZ800);
 
 // Artnet settings
 ArtnetWifi artnet;
@@ -67,7 +68,7 @@ boolean ConnectWifi(void)
     Serial.println("");
     Serial.println("Connection failed.");
   }
-  
+
   return state;
 }
 
@@ -79,32 +80,34 @@ void initTest()
     total_leds += leds_per_universe[i];
   }
 
-  if(total_leds != numLeds) {
+  if(total_leds != num_leds) {
     Serial.println("LEDs by Universe do Not Add Up to Total # LEDs!");
   }
 
-  for (int i = 0 ; i < numLeds ; i++)
+  for (int i = 0 ; i < num_leds ; i++)
     leds.setPixelColor(i, 127, 0, 0);
   leds.show();
   delay(500);
-  for (int i = 0 ; i < numLeds ; i++)
+  for (int i = 0 ; i < num_leds ; i++)
     leds.setPixelColor(i, 0, 127, 0);
   leds.show();
   delay(500);
-  for (int i = 0 ; i < numLeds ; i++)
+  for (int i = 0 ; i < num_leds ; i++)
     leds.setPixelColor(i, 0, 0, 127);
   leds.show();
   delay(500);
-  for (int i = 0 ; i < numLeds ; i++)
+  for (int i = 0 ; i < num_leds ; i++)
     leds.setPixelColor(i, 0, 0, 0);
   leds.show();
 }
 
 void onDmxFrame(uint16_t universe, uint16_t length, uint8_t sequence, uint8_t* data)
 {
-  // Serial.printf("Universe = %u | Length = %u | Sequence = %u | Data[0] = %u\n", 
-  //               universe, length, sequence, data[0]);
-  for (int i = 0; i < num_universes; i++) {
+#ifdef DEBUG
+  Serial.printf("Universe = %u | Length = %u | Sequence = %u | Data[0] = %u\n", 
+                universe, length, sequence, data[0]);
+#endif
+  for (int i = 0; i < NUM_UNIVERSES; i++) {
     if (universe == universes[i]) {
       int k = 0;
       for (int j = start_pixel[i]; j < start_pixel[i] + leds_per_universe[i]; j++) {
