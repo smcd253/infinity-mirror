@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Artnet-NeoPixel-PT",
+			"path": "../Artnet-NeoPixel-PT"
+		},
+		{
+			"name": "artnet-neopixel-pt-project",
+			"path": "../../../../PlatformIO/Projects/artnet-neopixel-pt-project"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"system_error": "cpp"
+		}
+	}
+}
