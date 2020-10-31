@@ -20,8 +20,8 @@ const int num_leds =                          NUM_TOTAL_LEDS;
 const int data_pin =                          DATA_PIN;
 
 //Wifi settings
-const char* ssid = "Daddy Leroy";
-const char* password = "leroyjenkins";
+const char* ssid = SSID;
+const char* password = PASSWORD;
 /*static ip*/
 IPAddress IP;
 IPAddress GATEWAY;   
@@ -113,7 +113,8 @@ void onDmxFrame(uint16_t universe, uint16_t length, uint8_t sequence, uint8_t* d
       for (int j = start_pixel[i]; j < start_pixel[i] + leds_per_universe[i]; j++) {
         int l = k * 3;
         leds.setPixelColor(j, data[l], data[l + 1], data[l + 2]);
-        k++;      
+        k++;
+        ESP.wdtFeed();      
       }
       leds.show();
     }
@@ -130,6 +131,7 @@ void setup()
   leds.show();
 
   initTest();
+  ESP.wdtFeed();
 
   // this will be called for each packet received
   artnet.setArtDmxCallback(onDmxFrame);
@@ -139,4 +141,5 @@ void loop()
 {
   // we call the read function inside the loop
   artnet.read();
+  ESP.wdtFeed();
 }

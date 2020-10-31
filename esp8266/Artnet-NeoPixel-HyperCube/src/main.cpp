@@ -11,7 +11,7 @@ Name: Mirrors4_5  | IP ADDR: 192.168.1.105 | UNIVERSE(s): 7    | NUM LEDS: 136 |
 #include <Adafruit_NeoPixel.h>
 
 #define DEVICE_NAME "HyperCube"
-IPAddress ip(192,168,1,102);
+IPAddress ip(192,168,1,101);
 const int num_universes = 2;
 const int universes[num_universes] = {3, 4};
 const int numLeds = 204;
@@ -23,8 +23,8 @@ const int pins_per_universe[num_universes] = {2, 1};
 const int pixels_per_pin[num_pins] = {68, 85, 51};  
 
 //Wifi settings
-const char* ssid = "Top Shelf";
-const char* password = "purpskurp69";
+const char* ssid = "infinity-mirror";
+const char* password = "weedistight";
 /*static ip*/
 IPAddress gateway(192,168,1,1);   
 IPAddress subnet(255,255,255,0); 
@@ -117,12 +117,14 @@ void onDmxFrame(uint16_t universe, uint16_t length, uint8_t sequence, uint8_t* d
       int l = k * 3;
       strip1.setPixelColor(j, data[l], data[l + 1], data[l + 2]);
       k++;      
+      ESP.wdtFeed();
     }
     strip1.show();
     for (int j = 0; j < pixels_per_pin[1]; j++) {
       int l = k * 3;
       strip2.setPixelColor(j, data[l], data[l + 1], data[l + 2]);
       k++;      
+      ESP.wdtFeed();
     }
     strip2.show();
   }
@@ -132,6 +134,7 @@ void onDmxFrame(uint16_t universe, uint16_t length, uint8_t sequence, uint8_t* d
       int l = k * 3;
       strip3.setPixelColor(j, data[l], data[l + 1], data[l + 2]);
       k++;      
+      ESP.wdtFeed();
     }
     strip3.show();
   }
@@ -156,6 +159,7 @@ void setup()
   strip3.show(); // Initialize all pixels to 'off'
 
   initTest();
+  ESP.wdtFeed();
 
   // this will be called for each packet received
   artnet.setArtDmxCallback(onDmxFrame);
@@ -165,4 +169,5 @@ void loop()
 {
   // we call the read function inside the loop
   artnet.read();
+  ESP.wdtFeed();
 }

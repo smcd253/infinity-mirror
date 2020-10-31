@@ -4,12 +4,12 @@
  *                                          *
  ********************************************/
 /*** Uncoment the fixture you would like to program ***/
-#define SIDE_PANEL_LEFT
+// #define SIDE_PANEL_LEFT
 // #define COL1
 // #define COL2
 // #define COL3
 // #define COL4
-// #define COL5
+#define COL5
 // #define SIDE_PANEL_RIGHT
 // #define HYPERCUBE
 // #define TABLE
@@ -18,8 +18,8 @@
 
 // WIFI INFORMATION
 #define USE_DEFAULT_ADDRESSES       // comment out if you would like to manually input addresses
-#define SSID        "Daddy Leroy"
-#define PASSWORD    "leroyjenkins"
+#define SSID        "infinity-mirror"
+#define PASSWORD    "weedistight"
 #define SUBNET      192, 168, 1
 #ifndef USE_DEFAULT_ADDRESSES
 #define ADDR        103
