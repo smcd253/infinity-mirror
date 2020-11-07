@@ -9,10 +9,10 @@
 // #define COL2
 // #define COL3
 // #define COL4
-#define COL5
+// #define COL5
 // #define SIDE_PANEL_RIGHT
 // #define HYPERCUBE
-// #define TABLE
+#define TABLE
 // #define LED_MATRIX1
 // #define LED_MATRIX2
 
@@ -22,7 +22,7 @@
 #define PASSWORD    "weedistight"
 #define SUBNET      192, 168, 1
 #ifndef USE_DEFAULT_ADDRESSES
-#define ADDR        103
+#define ADDR        69
 #endif
 
 /********************************************
@@ -32,10 +32,12 @@
  ********************************************/
 // #define DEBUG
 #ifdef TABLE
+#define DEVICE_NAME "Table"
 #define NUM_LEDS_UNIVERSE1 138
 #define NUM_LEDS_UNIVERSE2 69
 #define START_PIXEL_UNIVERSE1 0
 #define START_PIXEL_UNIVERSE2 138
+#define ADDR 100
 #endif
 #ifdef HYPERCUBE
 #endif

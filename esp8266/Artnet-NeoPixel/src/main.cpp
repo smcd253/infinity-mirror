@@ -130,6 +130,7 @@ void setup()
   leds.setBrightness(50);
   leds.show();
 
+  // ESP.disable();
   initTest();
   ESP.wdtFeed();
 

@@ -4,11 +4,12 @@
 			"path": ".."
 		},
 		{
-			"name": "Artnet-NeoPixel-HyperCube"
-		},
-		{
 			"name": "Artnet-NeoPixel-HyperCube",
 			"path": "../Artnet-NeoPixel-HyperCube"
+		},
+		{
+			"name": "Artnet-NeoPixel",
+			"path": "C:/Users/Spencer McDonough/Documents/PlatformIO/Projects/Artnet-NeoPixel"
 		}
 	],
 	"settings": {

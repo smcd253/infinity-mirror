@@ -3,7 +3,7 @@
 	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="2" microVersion="1" revision="70674"/>
 	<ScreenSetup name="ScreenSetup">
 		<Params name="ScreenSetupParams"/>
-		<CurrentCompositionTextureSize JorisIsLiev="false" width="1280" height="720"/>
+		<CurrentCompositionTextureSize JorisIsLiev="true" width="1280" height="720"/>
 		<screens>
 			<Screen name="Screen 1" uniqueId="1597036419191">
 				<Params name="Params">
@@ -590,10 +590,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1415400505065917969">
-							<v x="1004.44293212890625" y="143.292816162109375"/>
-							<v x="266.76544189453125" y="143.331634521484375"/>
-							<v x="266.76470947265625" y="129.533111572265625"/>
-							<v x="1004.44219970703125" y="129.494293212890625"/>
+							<v x="1004.443115234375" y="143.292816162109375"/>
+							<v x="266.765625" y="143.331634521484375"/>
+							<v x="266.764892578125" y="129.533111572265625"/>
+							<v x="1004.4423828125" y="129.494293212890625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -1534,8 +1534,8 @@
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
 							<v x="664.0889892578125" y="561.37109375"/>
-							<v x="664.0997314453125" y="154.880126953125"/>
-							<v x="674.1785888671875" y="154.880401611328125"/>
+							<v x="664.0997314453125" y="154.8800506591796875"/>
+							<v x="674.1785888671875" y="154.8803253173828125"/>
 							<v x="674.1678466796875" y="561.371337890625"/>
 						</InputRect>
 						<OutputRect orientation="0">
@@ -1634,10 +1634,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-3.1415400505065917969">
-							<v x="664.13372802734375" y="154.58880615234375"/>
-							<v x="501.207122802734375" y="154.580230712890625"/>
-							<v x="501.208465576171875" y="129.4942626953125"/>
-							<v x="664.13507080078125" y="129.502838134765625"/>
+							<v x="664.1339111328125" y="154.58880615234375"/>
+							<v x="501.2071533203125" y="154.580230712890625"/>
+							<v x="501.20849609375" y="129.4942626953125"/>
+							<v x="664.13525390625" y="129.502838134765625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -2561,8 +2561,8 @@
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
 							<v x="1010.1182861328125" y="561.36419677734375"/>
-							<v x="1010.1290283203125" y="154.873321533203125"/>
-							<v x="1020.2078857421875" y="154.87359619140625"/>
+							<v x="1010.1290283203125" y="154.8732147216796875"/>
+							<v x="1020.2078857421875" y="154.8734893798828125"/>
 							<v x="1020.1971435546875" y="561.36444091796875"/>
 						</InputRect>
 						<OutputRect orientation="0">
@@ -2880,10 +2880,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
-							<v x="251.778717041015625" y="582.48626708984375"/>
-							<v x="251.782135009765625" y="452.479949951171875"/>
-							<v x="259.830780029296875" y="452.480133056640625"/>
-							<v x="259.827362060546875" y="582.48651123046875"/>
+							<v x="251.778717041015625" y="582.4864501953125"/>
+							<v x="251.782135009765625" y="452.480133056640625"/>
+							<v x="259.830780029296875" y="452.480316162109375"/>
+							<v x="259.827362060546875" y="582.4866943359375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -3082,10 +3082,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="1.5707700252532958984">
-							<v x="399.63409423828125" y="452.48162841796875"/>
-							<v x="399.63751220703125" y="582.4906005859375"/>
-							<v x="391.58538818359375" y="582.4908447265625"/>
-							<v x="391.58197021484375" y="452.4818115234375"/>
+							<v x="399.63409423828125" y="452.481658935546875"/>
+							<v x="399.63751220703125" y="582.49078369140625"/>
+							<v x="391.58538818359375" y="582.49102783203125"/>
+							<v x="391.58197021484375" y="452.481842041015625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -4009,8 +4009,8 @@
 						</Params>
 						<InputRect orientation="1.5707700252532958984">
 							<v x="399.75079345703125" y="137.4897613525390625"/>
-							<v x="399.75421142578125" y="267.498046875"/>
-							<v x="391.70208740234375" y="267.49822998046875"/>
+							<v x="399.75421142578125" y="267.498138427734375"/>
+							<v x="391.70208740234375" y="267.498321533203125"/>
 							<v x="391.69866943359375" y="137.4899749755859375"/>
 						</InputRect>
 						<OutputRect orientation="0">
@@ -4429,10 +4429,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
-							<v x="407.265167236328125" y="582.4754638671875"/>
-							<v x="407.268585205078125" y="452.465972900390625"/>
-							<v x="415.275909423828125" y="452.466156005859375"/>
-							<v x="415.272491455078125" y="582.4757080078125"/>
+							<v x="407.265167236328125" y="582.47564697265625"/>
+							<v x="407.268585205078125" y="452.466156005859375"/>
+							<v x="415.275909423828125" y="452.466339111328125"/>
+							<v x="415.272491455078125" y="582.47589111328125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -5254,10 +5254,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1415400505065917969">
-							<v x="546.72528076171875" y="275.514556884765625"/>
-							<v x="416.71630859375" y="275.521392822265625"/>
-							<v x="416.71588134765625" y="267.521392822265625"/>
-							<v x="546.72491455078125" y="267.514556884765625"/>
+							<v x="546.72515869140625" y="275.514556884765625"/>
+							<v x="416.716217041015625" y="275.521392822265625"/>
+							<v x="416.715789794921875" y="267.521392822265625"/>
+							<v x="546.72479248046875" y="267.514556884765625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -5355,10 +5355,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
-							<v x="407.7452392578125" y="267.4901123046875"/>
-							<v x="407.7486572265625" y="137.4798736572265625"/>
-							<v x="415.7559814453125" y="137.4800872802734375"/>
-							<v x="415.7525634765625" y="267.49029541015625"/>
+							<v x="407.7452392578125" y="267.490142822265625"/>
+							<v x="407.7486572265625" y="137.479827880859375"/>
+							<v x="415.7559814453125" y="137.48004150390625"/>
+							<v x="415.7525634765625" y="267.490325927734375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -5877,10 +5877,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
-							<v x="563.26513671875" y="582.47100830078125"/>
-							<v x="563.2685546875" y="452.461273193359375"/>
-							<v x="571.27587890625" y="452.461456298828125"/>
-							<v x="571.2724609375" y="582.47125244140625"/>
+							<v x="563.26513671875" y="582.47119140625"/>
+							<v x="563.2685546875" y="452.461456298828125"/>
+							<v x="571.27587890625" y="452.461639404296875"/>
+							<v x="571.2724609375" y="582.471435546875"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -6079,10 +6079,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="1.5707700252532958984">
-							<v x="710.2559814453125" y="452.462982177734375"/>
-							<v x="710.2593994140625" y="582.47515869140625"/>
-							<v x="702.2486572265625" y="582.47540283203125"/>
-							<v x="702.2452392578125" y="452.463165283203125"/>
+							<v x="710.2559814453125" y="452.46295166015625"/>
+							<v x="710.2593994140625" y="582.475341796875"/>
+							<v x="702.2486572265625" y="582.4755859375"/>
+							<v x="702.2452392578125" y="452.463134765625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -6803,10 +6803,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
-							<v x="563.26513671875" y="267.485504150390625"/>
-							<v x="563.2685546875" y="137.47509765625"/>
-							<v x="571.27587890625" y="137.475311279296875"/>
-							<v x="571.2724609375" y="267.485687255859375"/>
+							<v x="563.26513671875" y="267.48553466796875"/>
+							<v x="563.2685546875" y="137.4750518798828125"/>
+							<v x="571.27587890625" y="137.4752655029296875"/>
+							<v x="571.2724609375" y="267.4857177734375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -8251,10 +8251,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
-							<v x="721.22705078125" y="267.485595703125"/>
-							<v x="721.23046875" y="137.4759063720703125"/>
-							<v x="729.23779296875" y="137.4761199951171875"/>
-							<v x="729.234375" y="267.48577880859375"/>
+							<v x="721.22705078125" y="267.485626220703125"/>
+							<v x="721.23046875" y="137.4759521484375"/>
+							<v x="729.23779296875" y="137.476165771484375"/>
+							<v x="729.234375" y="267.485809326171875"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -9800,10 +9800,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
-							<v x="881.22705078125" y="267.490020751953125"/>
-							<v x="881.23046875" y="137.479583740234375"/>
-							<v x="889.23779296875" y="137.47979736328125"/>
-							<v x="889.234375" y="267.490203857421875"/>
+							<v x="881.22705078125" y="267.490081787109375"/>
+							<v x="881.23046875" y="137.4795379638671875"/>
+							<v x="889.23779296875" y="137.4797515869140625"/>
+							<v x="889.234375" y="267.490264892578125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -10103,10 +10103,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1415400505065917969">
-							<v x="1020.2021484375" y="275.51776123046875"/>
-							<v x="1004.2259521484375" y="275.51861572265625"/>
-							<v x="1004.2255859375" y="267.51861572265625"/>
-							<v x="1020.2017822265625" y="267.51776123046875"/>
+							<v x="1020.20233154296875" y="275.517852783203125"/>
+							<v x="1004.22613525390625" y="275.518707275390625"/>
+							<v x="1004.22576904296875" y="267.518707275390625"/>
+							<v x="1020.20196533203125" y="267.517852783203125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -10190,7 +10190,7 @@
 			<DmxScreen name="LED Panel 1 - p1" uniqueId="1597549192250" LumiverseId="14">
 				<Params name="Params">
 					<Param name="Name" T="STRING" default="" value="LED Panel 1 - p1"/>
-					<Param name="Enabled" T="BOOL" default="1" value="0"/>
+					<Param name="Enabled" T="BOOL" default="1" value="1"/>
 					<Param name="Hidden" T="BOOL" default="0" value="0"/>
 				</Params>
 				<Params name="Output">
@@ -10284,7 +10284,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -10322,10 +10322,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1324644088745117188">
-							<v x="821.34124755859375" y="392.046783447265625"/>
-							<v x="756.37249755859375" y="392.639862060546875"/>
-							<v x="756.33612060546875" y="388.648651123046875"/>
-							<v x="821.30487060546875" y="388.055572509765625"/>
+							<v x="821.34124755859375" y="392.046875"/>
+							<v x="756.37249755859375" y="392.63995361328125"/>
+							<v x="756.33612060546875" y="388.64874267578125"/>
+							<v x="821.30487060546875" y="388.0556640625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -10385,7 +10385,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -10423,8 +10423,8 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.0092500895261764526367">
-							<v x="756.30218505859375" y="384.67144775390625"/>
-							<v x="821.27105712890625" y="384.0704345703125"/>
+							<v x="756.30218505859375" y="384.6712646484375"/>
+							<v x="821.27105712890625" y="384.07025146484375"/>
 							<v x="821.30804443359375" y="388.06707763671875"/>
 							<v x="756.33917236328125" y="388.6680908203125"/>
 						</InputRect>
@@ -10486,7 +10486,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -10524,10 +10524,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1324644088745117188">
-							<v x="821.27496337890625" y="384.0914306640625"/>
-							<v x="756.30682373046875" y="384.68450927734375"/>
-							<v x="756.27044677734375" y="380.69317626953125"/>
-							<v x="821.23858642578125" y="380.10009765625"/>
+							<v x="821.275146484375" y="384.0914306640625"/>
+							<v x="756.3070068359375" y="384.68450927734375"/>
+							<v x="756.2706298828125" y="380.69317626953125"/>
+							<v x="821.23876953125" y="380.10009765625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -10587,7 +10587,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -10625,10 +10625,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.0092500895261764526367">
-							<v x="756.23614501953125" y="376.716705322265625"/>
-							<v x="821.20513916015625" y="376.115692138671875"/>
-							<v x="821.24212646484375" y="380.111968994140625"/>
-							<v x="756.27313232421875" y="380.712982177734375"/>
+							<v x="756.23614501953125" y="376.71661376953125"/>
+							<v x="821.20513916015625" y="376.1156005859375"/>
+							<v x="821.24212646484375" y="380.11187744140625"/>
+							<v x="756.27313232421875" y="380.712890625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -10688,7 +10688,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -10726,10 +10726,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1324644088745117188">
-							<v x="821.2076416015625" y="376.13665771484375"/>
-							<v x="756.2391357421875" y="376.729736328125"/>
-							<v x="756.2027587890625" y="372.73834228515625"/>
-							<v x="821.1712646484375" y="372.145263671875"/>
+							<v x="821.20782470703125" y="376.136749267578125"/>
+							<v x="756.23931884765625" y="376.729827880859375"/>
+							<v x="756.20294189453125" y="372.738433837890625"/>
+							<v x="821.17144775390625" y="372.145355224609375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -10789,7 +10789,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -10827,10 +10827,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.0092500895261764526367">
-							<v x="756.16888427734375" y="368.76165771484375"/>
-							<v x="821.13848876953125" y="368.16064453125"/>
-							<v x="821.17547607421875" y="372.15673828125"/>
-							<v x="756.20587158203125" y="372.75775146484375"/>
+							<v x="756.16888427734375" y="368.761566162109375"/>
+							<v x="821.13848876953125" y="368.160552978515625"/>
+							<v x="821.17547607421875" y="372.156646728515625"/>
+							<v x="756.20587158203125" y="372.757659912109375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -10890,7 +10890,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -10928,10 +10928,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1324644088745117188">
-							<v x="821.14129638671875" y="368.181976318359375"/>
-							<v x="756.17230224609375" y="368.775054931640625"/>
-							<v x="756.13592529296875" y="364.783538818359375"/>
-							<v x="821.10491943359375" y="364.190460205078125"/>
+							<v x="821.14129638671875" y="368.18206787109375"/>
+							<v x="756.17230224609375" y="368.775146484375"/>
+							<v x="756.13592529296875" y="364.78363037109375"/>
+							<v x="821.10491943359375" y="364.1905517578125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -10991,7 +10991,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -11029,10 +11029,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.0092500895261764526367">
-							<v x="756.10113525390625" y="360.80657958984375"/>
-							<v x="821.07061767578125" y="360.20556640625"/>
-							<v x="821.10760498046875" y="364.20196533203125"/>
-							<v x="756.13812255859375" y="364.802978515625"/>
+							<v x="756.1009521484375" y="360.806488037109375"/>
+							<v x="821.0704345703125" y="360.205474853515625"/>
+							<v x="821.107421875" y="364.201873779296875"/>
+							<v x="756.137939453125" y="364.802886962890625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -11116,7 +11116,7 @@
 			<DmxScreen name="LED Panel 1 - p2" uniqueId="1597549192259" LumiverseId="15">
 				<Params name="Params">
 					<Param name="Name" T="STRING" default="" value="LED Panel 1 - p2"/>
-					<Param name="Enabled" T="BOOL" default="1" value="0"/>
+					<Param name="Enabled" T="BOOL" default="1" value="1"/>
 					<Param name="Hidden" T="BOOL" default="0" value="0"/>
 				</Params>
 				<Params name="Output">
@@ -11210,7 +11210,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -11248,10 +11248,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1324644088745117188">
-							<v x="821.07513427734375" y="360.2264404296875"/>
-							<v x="756.10577392578125" y="360.81951904296875"/>
-							<v x="756.06939697265625" y="356.82818603515625"/>
-							<v x="821.03875732421875" y="356.235107421875"/>
+							<v x="821.0753173828125" y="360.2264404296875"/>
+							<v x="756.10595703125" y="360.81951904296875"/>
+							<v x="756.069580078125" y="356.82818603515625"/>
+							<v x="821.0389404296875" y="356.235107421875"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -11311,7 +11311,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -11349,10 +11349,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.0092500895261764526367">
-							<v x="756.03472900390625" y="352.85162353515625"/>
-							<v x="821.00457763671875" y="352.2506103515625"/>
-							<v x="821.04156494140625" y="356.24664306640625"/>
-							<v x="756.07171630859375" y="356.84765625"/>
+							<v x="756.03472900390625" y="352.851531982421875"/>
+							<v x="821.00457763671875" y="352.250518798828125"/>
+							<v x="821.04156494140625" y="356.246551513671875"/>
+							<v x="756.07171630859375" y="356.847564697265625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -11412,7 +11412,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -11450,10 +11450,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1324644088745117188">
-							<v x="821.00811767578125" y="352.27142333984375"/>
-							<v x="756.03851318359375" y="352.864501953125"/>
-							<v x="756.00201416015625" y="348.87274169921875"/>
-							<v x="820.97161865234375" y="348.2796630859375"/>
+							<v x="821.00830078125" y="352.27142333984375"/>
+							<v x="756.038330078125" y="352.864501953125"/>
+							<v x="756.0018310546875" y="348.87274169921875"/>
+							<v x="820.9718017578125" y="348.2796630859375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -11513,7 +11513,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -11551,10 +11551,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.0092500895261764526367">
-							<v x="755.96807861328125" y="344.896881103515625"/>
-							<v x="820.93792724609375" y="344.295867919921875"/>
-							<v x="820.97491455078125" y="348.292327880859375"/>
-							<v x="756.00506591796875" y="348.893341064453125"/>
+							<v x="755.9678955078125" y="344.89678955078125"/>
+							<v x="820.937744140625" y="344.2957763671875"/>
+							<v x="820.9747314453125" y="348.29241943359375"/>
+							<v x="756.0048828125" y="348.8934326171875"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -11614,7 +11614,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -11652,10 +11652,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1324644088745117188">
-							<v x="820.941650390625" y="344.31597900390625"/>
+							<v x="820.9420166015625" y="344.31597900390625"/>
 							<v x="755.97216796875" y="344.9090576171875"/>
 							<v x="755.935791015625" y="340.9176025390625"/>
-							<v x="820.9052734375" y="340.32452392578125"/>
+							<v x="820.9056396484375" y="340.32452392578125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -11715,7 +11715,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -11753,10 +11753,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.0092500895261764526367">
-							<v x="755.90081787109375" y="336.94183349609375"/>
-							<v x="820.87042236328125" y="336.3408203125"/>
-							<v x="820.90740966796875" y="340.337158203125"/>
-							<v x="755.93780517578125" y="340.93817138671875"/>
+							<v x="755.900634765625" y="336.941741943359375"/>
+							<v x="820.8702392578125" y="336.340728759765625"/>
+							<v x="820.9072265625" y="340.337249755859375"/>
+							<v x="755.9376220703125" y="340.938262939453125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -11816,7 +11816,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -11854,10 +11854,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1324644088745117188">
-							<v x="820.875" y="336.36138916015625"/>
-							<v x="755.9058837890625" y="336.9544677734375"/>
-							<v x="755.8695068359375" y="332.96307373046875"/>
-							<v x="820.838623046875" y="332.3699951171875"/>
+							<v x="820.87518310546875" y="336.3614501953125"/>
+							<v x="755.90606689453125" y="336.95452880859375"/>
+							<v x="755.86968994140625" y="332.963134765625"/>
+							<v x="820.83880615234375" y="332.37005615234375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -11917,7 +11917,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -11955,10 +11955,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.0092500895261764526367">
-							<v x="755.8349609375" y="328.987091064453125"/>
-							<v x="820.80419921875" y="328.386077880859375"/>
-							<v x="820.8411865234375" y="332.382720947265625"/>
-							<v x="755.8719482421875" y="332.983734130859375"/>
+							<v x="755.8349609375" y="328.98699951171875"/>
+							<v x="820.80419921875" y="328.385986328125"/>
+							<v x="820.8411865234375" y="332.3828125"/>
+							<v x="755.8719482421875" y="332.98382568359375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -12175,8 +12175,8 @@
 						</Params>
 						<InputRect orientation="3.1415400505065917969">
 							<v x="231.20751953125" y="591.29736328125"/>
-							<v x="101.19770050048828125" y="591.30419921875"/>
-							<v x="101.19727325439453125" y="583.30419921875"/>
+							<v x="101.197662353515625" y="591.30419921875"/>
+							<v x="101.197235107421875" y="583.30419921875"/>
 							<v x="231.20709228515625" y="583.29736328125"/>
 						</InputRect>
 						<OutputRect orientation="0">
@@ -12477,10 +12477,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="1.5707700252532958984">
-							<v x="239.217071533203125" y="453.26580810546875"/>
-							<v x="239.220489501953125" y="583.2769775390625"/>
-							<v x="231.209686279296875" y="583.2772216796875"/>
-							<v x="231.206268310546875" y="453.2659912109375"/>
+							<v x="239.217071533203125" y="453.265838623046875"/>
+							<v x="239.220489501953125" y="583.27716064453125"/>
+							<v x="231.209686279296875" y="583.27740478515625"/>
+							<v x="231.206268310546875" y="453.266021728515625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -12578,10 +12578,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1415400505065917969">
-							<v x="232.1689910888671875" y="428.871795654296875"/>
-							<v x="102.15978240966796875" y="428.878631591796875"/>
-							<v x="102.15964508056640625" y="426.347137451171875"/>
-							<v x="232.1688690185546875" y="426.340301513671875"/>
+							<v x="232.169036865234375" y="428.871795654296875"/>
+							<v x="102.15982818603515625" y="428.878631591796875"/>
+							<v x="102.15969085693359375" y="426.347137451171875"/>
+							<v x="232.168914794921875" y="426.340301513671875"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -13404,8 +13404,8 @@
 						</Params>
 						<InputRect orientation="1.5707700252532958984">
 							<v x="240.96441650390625" y="137.7678680419921875"/>
-							<v x="240.96783447265625" y="267.77886962890625"/>
-							<v x="232.95703125" y="267.779052734375"/>
+							<v x="240.96783447265625" y="267.778961181640625"/>
+							<v x="232.95703125" y="267.779144287109375"/>
 							<v x="232.95361328125" y="137.7680816650390625"/>
 						</InputRect>
 						<OutputRect orientation="0">
@@ -13490,7 +13490,7 @@
 			<DmxScreen name="LED Panel 2 - p1" uniqueId="1599278346141" LumiverseId="17">
 				<Params name="Params">
 					<Param name="Name" T="STRING" default="" value="LED Panel 2 - p1"/>
-					<Param name="Enabled" T="BOOL" default="1" value="0"/>
+					<Param name="Enabled" T="BOOL" default="1" value="1"/>
 					<Param name="Hidden" T="BOOL" default="0" value="0"/>
 				</Params>
 				<Params name="Output">
@@ -13584,7 +13584,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -13622,10 +13622,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1410164833068847656">
-							<v x="524.61553955078125" y="391.138702392578125"/>
-							<v x="457.86773681640625" y="391.177154541015625"/>
-							<v x="457.86541748046875" y="387.172332763671875"/>
-							<v x="524.61322021484375" y="387.133880615234375"/>
+							<v x="524.6153564453125" y="391.1387939453125"/>
+							<v x="457.8675537109375" y="391.17724609375"/>
+							<v x="457.865234375" y="387.17242431640625"/>
+							<v x="524.613037109375" y="387.13397216796875"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -13685,7 +13685,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -13723,10 +13723,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.00069811998400837182999">
-							<v x="457.863189697265625" y="383.1917724609375"/>
+							<v x="457.86309814453125" y="383.1917724609375"/>
 							<v x="524.61260986328125" y="383.14520263671875"/>
 							<v x="524.61541748046875" y="387.16058349609375"/>
-							<v x="457.865997314453125" y="387.2071533203125"/>
+							<v x="457.86590576171875" y="387.2071533203125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -13786,7 +13786,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -13824,10 +13824,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1410164833068847656">
-							<v x="524.6126708984375" y="383.18475341796875"/>
-							<v x="457.86602783203125" y="383.22320556640625"/>
-							<v x="457.86370849609375" y="379.21929931640625"/>
-							<v x="524.6103515625" y="379.18084716796875"/>
+							<v x="524.61248779296875" y="383.184844970703125"/>
+							<v x="457.8658447265625" y="383.223297119140625"/>
+							<v x="457.863525390625" y="379.219390869140625"/>
+							<v x="524.61016845703125" y="379.180938720703125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -13887,7 +13887,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -13925,10 +13925,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.00069811998400837182999">
-							<v x="457.860443115234375" y="375.238006591796875"/>
+							<v x="457.8603515625" y="375.238006591796875"/>
 							<v x="524.60992431640625" y="375.191436767578125"/>
 							<v x="524.61273193359375" y="379.205413818359375"/>
-							<v x="457.863250732421875" y="379.251983642578125"/>
+							<v x="457.8631591796875" y="379.251983642578125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -13988,7 +13988,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -14026,10 +14026,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1410164833068847656">
-							<v x="524.609375" y="375.230712890625"/>
-							<v x="457.86297607421875" y="375.2691650390625"/>
-							<v x="457.86065673828125" y="371.2626953125"/>
-							<v x="524.6070556640625" y="371.2242431640625"/>
+							<v x="524.60919189453125" y="375.230712890625"/>
+							<v x="457.86279296875" y="375.2691650390625"/>
+							<v x="457.8604736328125" y="371.2626953125"/>
+							<v x="524.60687255859375" y="371.2242431640625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -14089,7 +14089,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -14127,10 +14127,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.00069811998400837182999">
-							<v x="457.858489990234375" y="367.281951904296875"/>
+							<v x="457.8583984375" y="367.281951904296875"/>
 							<v x="524.607666015625" y="367.235382080078125"/>
 							<v x="524.6104736328125" y="371.248504638671875"/>
-							<v x="457.861297607421875" y="371.295074462890625"/>
+							<v x="457.8612060546875" y="371.295074462890625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -14190,7 +14190,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -14228,10 +14228,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1410164833068847656">
-							<v x="524.60736083984375" y="367.276214599609375"/>
-							<v x="457.8599853515625" y="367.314666748046875"/>
-							<v x="457.857666015625" y="363.308502197265625"/>
-							<v x="524.60504150390625" y="363.270050048828125"/>
+							<v x="524.607177734375" y="367.276214599609375"/>
+							<v x="457.85980224609375" y="367.314666748046875"/>
+							<v x="457.85748291015625" y="363.308502197265625"/>
+							<v x="524.6048583984375" y="363.270050048828125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -14291,7 +14291,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -14329,10 +14329,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.00069811998400837182999">
-							<v x="457.855712890625" y="359.327392578125"/>
+							<v x="457.855621337890625" y="359.327392578125"/>
 							<v x="524.60491943359375" y="359.28082275390625"/>
 							<v x="524.60772705078125" y="363.29339599609375"/>
-							<v x="457.8585205078125" y="363.3399658203125"/>
+							<v x="457.858428955078125" y="363.3399658203125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -14416,7 +14416,7 @@
 			<DmxScreen name="LED Panel 2 - p2" uniqueId="1599278346143" LumiverseId="18">
 				<Params name="Params">
 					<Param name="Name" T="STRING" default="" value="LED Panel 2 - p2"/>
-					<Param name="Enabled" T="BOOL" default="1" value="0"/>
+					<Param name="Enabled" T="BOOL" default="1" value="1"/>
 					<Param name="Hidden" T="BOOL" default="0" value="0"/>
 				</Params>
 				<Params name="Output">
@@ -14510,7 +14510,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -14548,10 +14548,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1410164833068847656">
-							<v x="524.60546875" y="359.318115234375"/>
-							<v x="457.85638427734375" y="359.3565673828125"/>
-							<v x="457.85406494140625" y="355.353271484375"/>
-							<v x="524.6031494140625" y="355.3148193359375"/>
+							<v x="524.60528564453125" y="359.318115234375"/>
+							<v x="457.856201171875" y="359.3565673828125"/>
+							<v x="457.8538818359375" y="355.353271484375"/>
+							<v x="524.60296630859375" y="355.3148193359375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -14611,7 +14611,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -14649,10 +14649,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.00069811998400837182999">
-							<v x="457.852294921875" y="351.371368408203125"/>
+							<v x="457.852203369140625" y="351.371368408203125"/>
 							<v x="524.6021728515625" y="351.324798583984375"/>
 							<v x="524.60498046875" y="355.340057373046875"/>
-							<v x="457.8551025390625" y="355.386627197265625"/>
+							<v x="457.855010986328125" y="355.386627197265625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -14712,7 +14712,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -14750,10 +14750,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1410164833068847656">
-							<v x="524.60186767578125" y="351.365509033203125"/>
-							<v x="457.853759765625" y="351.403961181640625"/>
-							<v x="457.8514404296875" y="347.400665283203125"/>
-							<v x="524.59954833984375" y="347.362213134765625"/>
+							<v x="524.6016845703125" y="351.36541748046875"/>
+							<v x="457.85357666015625" y="351.40386962890625"/>
+							<v x="457.85125732421875" y="347.40057373046875"/>
+							<v x="524.599365234375" y="347.36212158203125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -14813,7 +14813,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -14851,10 +14851,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.00069811998400837182999">
-							<v x="457.85052490234375" y="343.415069580078125"/>
+							<v x="457.850433349609375" y="343.415069580078125"/>
 							<v x="524.59991455078125" y="343.368499755859375"/>
 							<v x="524.60272216796875" y="347.384246826171875"/>
-							<v x="457.85333251953125" y="347.430816650390625"/>
+							<v x="457.853240966796875" y="347.430816650390625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -14914,7 +14914,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -14952,10 +14952,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1410164833068847656">
-							<v x="524.60003662109375" y="343.407562255859375"/>
-							<v x="457.852294921875" y="343.446014404296875"/>
-							<v x="457.8499755859375" y="339.440643310546875"/>
-							<v x="524.59771728515625" y="339.402191162109375"/>
+							<v x="524.599853515625" y="343.407470703125"/>
+							<v x="457.85211181640625" y="343.4459228515625"/>
+							<v x="457.84979248046875" y="339.4405517578125"/>
+							<v x="524.5975341796875" y="339.402099609375"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -15015,7 +15015,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -15053,10 +15053,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.00069811998400837182999">
-							<v x="457.84765625" y="335.4617919921875"/>
+							<v x="457.847564697265625" y="335.4617919921875"/>
 							<v x="524.59686279296875" y="335.41522216796875"/>
 							<v x="524.59967041015625" y="339.42877197265625"/>
-							<v x="457.8504638671875" y="339.475341796875"/>
+							<v x="457.850372314453125" y="339.475341796875"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -15116,7 +15116,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -15154,10 +15154,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="3.1410164833068847656">
-							<v x="524.59564208984375" y="335.453155517578125"/>
-							<v x="457.84808349609375" y="335.491607666015625"/>
-							<v x="457.84576416015625" y="331.485626220703125"/>
-							<v x="524.59332275390625" y="331.447174072265625"/>
+							<v x="524.595458984375" y="335.45306396484375"/>
+							<v x="457.84808349609375" y="335.49151611328125"/>
+							<v x="457.84576416015625" y="331.48553466796875"/>
+							<v x="524.5931396484375" y="331.44708251953125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -15217,7 +15217,7 @@
 							<ParamChoice name="Filter Mode" T="INT32" default="0" value="0" storeChoices="0"/>
 						</Params>
 						<Params name="Output">
-							<Param name="Flip" T="UINT8" default="0" value="0"/>
+							<Param name="Flip" T="UINT8" default="0" value="1"/>
 							<ParamRange name="Brightness" T="DOUBLE" default="0" value="0">
 								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
 								<BehaviourDouble name="BehaviourDouble"/>
@@ -15255,10 +15255,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-0.00069811998400837182999">
-							<v x="457.844329833984375" y="327.50701904296875"/>
+							<v x="457.84423828125" y="327.50701904296875"/>
 							<v x="524.594482421875" y="327.46044921875"/>
 							<v x="524.5972900390625" y="331.474609375"/>
-							<v x="457.847137451171875" y="331.52117919921875"/>
+							<v x="457.8470458984375" y="331.52117919921875"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -15575,10 +15575,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
-							<v x="1037.2261962890625" y="585.75201416015625"/>
-							<v x="1037.2296142578125" y="455.741058349609375"/>
-							<v x="1045.2369384765625" y="455.741241455078125"/>
-							<v x="1045.2335205078125" y="585.75225830078125"/>
+							<v x="1037.2261962890625" y="585.752197265625"/>
+							<v x="1037.2296142578125" y="455.74102783203125"/>
+							<v x="1045.2369384765625" y="455.7412109375"/>
+							<v x="1045.2335205078125" y="585.75244140625"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
@@ -16501,10 +16501,10 @@
 							</ParamRange>
 						</Params>
 						<InputRect orientation="-1.5707700252532958984">
-							<v x="1038.909423828125" y="267.77471923828125"/>
-							<v x="1038.912841796875" y="137.7636871337890625"/>
-							<v x="1046.920166015625" y="137.7639007568359375"/>
-							<v x="1046.916748046875" y="267.77490234375"/>
+							<v x="1038.909423828125" y="267.774749755859375"/>
+							<v x="1038.912841796875" y="137.763641357421875"/>
+							<v x="1046.920166015625" y="137.76385498046875"/>
+							<v x="1046.916748046875" y="267.774932861328125"/>
 						</InputRect>
 						<OutputRect orientation="0">
 							<v x="-0.5" y="-0.5"/>
